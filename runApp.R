@@ -1,0 +1,32 @@
+# runApp.R template for Plotly/Shiny apps
+# open this script in R and select 
+
+install.packages("shiny")
+install.packages("dplyr")
+install.packages("devtools")
+install_github("ropensci/plotly")
+shiny::runApp()
+
+#activate needed libraries
+library(shinythemes)
+library(devtools)
+library(vcd)
+library(ggplot2)
+library(plyr)
+library(dplyr)
+library(reshape)
+library(scales)
+library(shiny)
+library(shinyapps)
+library(shinythemes)
+library(lattice)
+library(ggvis)
+library(rcharts)
+library(ggthemes)
+library(RColorBrewer)
+library(plotly)
+library(DescTools)
+library(RColorBrewer)
+library(extrafont)
+library(devtools)
+library(markdown)
